@@ -18,6 +18,12 @@ html, body {
     .nav-links a {
         font-size: 18px; /* Reduce text size */
     }
+
+    .profile-img {
+        width: 300px;
+        height: 300px;
+    }
+
     .about-container{
         flex-direction: column;
         text-align: center;
