@@ -36,8 +36,8 @@ h2.write {
 }
 
 .profile-img {
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     object-fit: cover;
     border: 8px solid linear-gradient(135deg, #36454F, #2C3E50, #4F5D75);;
