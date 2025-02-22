@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import 'navbar.css';
+@import 'hero.css';
+@import 'about.css';
+@import 'cv.css';
+@import 'certificates.css';
+@import 'footer.css';
+@import 'responsive.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+h1, h2, h3, .nav-links, .cv-buttons {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,46 @@
+.hero-title {
+    margin-bottom: 20px;
+    font-size: 48px;
+    position: relative;
+    transition: transform 0.3s ease-out;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #A8D8E7, #FFFFFF, #D1D8E9);
+    color: #36454F;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+h2.write {
+    color: #36454F;
+    font-size: 24;
+    font-weight: lighter;
+    display: inline-block;
+    min-width: 280px; /* Adjust based on longest text */
+    height: 30px; /* Ensures it never shrinks */
+    text-align: center;
+    overflow: hidden; /* Prevents flickering */
+    margin-top: 16px;
+}
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid linear-gradient(135deg, #36454F, #2C3E50, #4F5D75);;
+    margin-bottom: 16px;
+
+}

@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 15px 15px; /* Reduce navbar padding */
+    }
+    .logo {
+        max-width:30px;
+    }
+    .nav-links {
+        gap: 10px; /* Reduce space between links */
+    }
+
+    .nav-links a {
+        font-size: 18px; /* Reduce text size */
+    }
+    .about-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text p {
+        padding: 12px 3px;
+    }
+    
+}

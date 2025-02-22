@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: linear-gradient(135deg, #36454F, #2C3E50, #4F5D75);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+    
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    border: 3px solid #B0DCE9 ;
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+    transform: translateX(4.5%);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;  /* Ensures transform works correctly */
+    transition: transform 0.3s ease, color 0.3s ease;  /* Smooth transition for transform and color */
+}
+
+.nav-links a:hover {
+    color: #B0DCE9;
+    transform: scale(1.1);
+}

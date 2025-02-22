@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Deniz Karabekir - Portfolio showcasing my portfolio, certifications, and skills.">
+    <meta name="keywords" content="developer, programming, portfolio, web development, finance, construction, echnician, cv, ">
+    <meta name="author" content="Deniz Karabekir">
+    <title>Deniz Karabekir</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- <meta property="og:title" content=Deniz Karabekir - Portfolio>
+    <meta property="og:description" content="Check out my portfolio!">
+    <meta property="og:image" content="images/">
+    <meta property="og:url" content="https://mywebsite.com"> -->
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <a href="#home">
+                <img class="logo" src="images/Logo.webp" loading="lazy" alt="logo"><a href="#home">
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero-title">Welcome to My Portfolio</h1>
+        <div class="hero-content">
+            <img src="images/profile-pic.jpg" alt="Picture" class="profile-img" loading="lazy">
+            <h1>Deniz Karabekir</h1>
+            <h2 class="write" data-period="2000" data-type='["|| Finance Student ||", "|| Aspiring Programmer ||", "|| Enthusiast of Learning and Innovation ||"]'></h2>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+
+            <div class="about-text">
+                <h2>About me</h2>
+                <p>My name is Deniz Karabekir. I am a Finance student at the University of National and World Economy (UNWE).</p>  
+                <p>I have completed secondary professional education in PGASG as a Construction Technician and hold a qualification in the field.</p>
+                <p>I am also studying Software Development at Software University (SoftUni).</p>
+    
+            </div>
+
+            <div class="about-image">
+                <img src="images/illustration.webp" alt="illustration" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="cv-section" id="cv">
+        <h2>My CV</h2>
+
+        <div class="cv-buttons">
+            <a href="cv-bg.pdf" class="cv-button" download>📄 Download CV (Bulgarian)</a>
+            <a href="cv-en.pdf" class="cv-button" download>📄 Download CV (English)</a>
+        </div>
+
+    </section>
+
+    <section id="certificates">
+        <div class="container">
+            <div class="carousel-container">
+                <button class="prev">&#10094;</button>
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="images/Fundamentals.webp" alt="Certificate 1" loading="lazy">
+                        <img src="images/Advanced.webp" alt="Certificate 2" loading="lazy">
+                        <img src="images/OOP.webp" alt="Certificate 3" loading="lazy">
+                        <img src="images/HTML & CSS.webp" alt="Certificate 4" loading="lazy">
+                        <img src="images/JS Front end.webp" alt="Certificate 5" loading="lazy">
+                        <img src="images/Algorithms.webp" alt="Certificate 6" loading="lazy">
+                        <img src="images/PostgreSQL.webp" alt="Certificate 7" loading="lazy">
+                        <!-- <img src="" alt="Certificate 8"> -->
+                    </div>
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <div class="info">
+            <div class="contact-row">
+                <div class="contact-item" onclick="copyEmail()">
+                    <img src="images/gmail logo.webp" alt="Gmail" loading="lazy">
+                </div>
+
+                <div class="contact-item" onclick="window.open('https://github.com/Denkutu','_blank');">
+                    <img src="images/GitHub-Logo.webp" alt="GitHub" loading="lazy">
+                </div>
+
+                <div class="contact-item" onclick="window.open('https://www.linkedin.com/in/deniz-karabekir-186145352','_blank');">
+                    <img src="images/LinkedIn_logo_initials.png.webp" alt="LinkedIn" loading="lazy">
+                </div>
+            </div>
+
+            <div id="email-copied" class="copied-email"></div> <!-- Copied email message -->
+
+        </div>
+
+    </footer>
+
+    <footer class="bottom-footer">
+        <p>© 2025 Deniz Karabekir. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+.cv-section {
+    text-align: center;
+    padding: 95px 0;
+    background: linear-gradient(135deg, #A8D8E7, #FFFFFF, #D1D8E9);
+}
+
+.cv-section h2 {
+    color: #36454F;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cv-buttons {
+    display: flex;
+    flex-wrap: wrap;  /* Allows wrapping when needed */
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.cv-buttons a {
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(135deg, #36454F, #2C3E50, #4F5D75);
+    border-radius: 15px;
+}
+
+.cv-button:hover {
+    color: #B0DCE9;
+}
