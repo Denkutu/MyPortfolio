@@ -9,7 +9,7 @@ This is my personal portfolio website, designed to showcase my skills, projects,
 - **Home**: A brief introduction to who I am and what I do.
 - **About**: An overview of my background, skills, and experiences.
 - **CV**: Downloadable versions of my CV in both Bulgarian and English.
-- **Certifications**: A list of my certificates and achievements.
+- **Certificates**: A list of my certificates and achievements.
 - **Contact**: Ways for visitors to get in touch with me.
 
 ## 🌟 Features
